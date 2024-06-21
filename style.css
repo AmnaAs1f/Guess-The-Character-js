@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color: rgba(144, 238, 144, 0.349);
+}
+
+.wrapper{
+    width: 550px;
+    background-color:rgba(144, 238, 144, 0.356);
+    border-radius: 10px;
+}
+
+.wrapper h1{
+    font-size: 25px;
+    font-weight: 700;
+    padding:20px 25px;
+    border-bottom: 1px solid black
+}
+
+.wrapper .sub{
+    color: darkgreen;
+    font-weight: 700;
+}
+.wrapper .content{
+    margin: 25px 25px 25px 25px;
+
+}
+
+.content .typing-input{
+z-index: -999;
+position: absolute;
+opacity: 0;
+}
+
+.content .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputs input{
+    height: 57px;
+    width: 56px;
+    margin:4px;
+    color: black ;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    background-color: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+.inputs input:first-child{
+    margin-left: 0px;
+}
+
+.content .details{
+    margin: 20px 0px 25px;
+
+}
+
+.details p{
+    font-size: 19px;
+    margin-bottom: 10px
+}
+
+
+.content .reset-btn{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 15px 0;
+    cursor: pointer;
+    background-color:darkgreen;
+    border-radius: 5px;
+    color: aliceblue;
+}
